@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Apex Gym - Home</title>
+  <meta name='description' content='Apex Gym delivers strength training, cardio, and personal coaching in a modern facility.'>
+  <link href='https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap' rel='stylesheet'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='font-roboto antialiased bg-gray-50 text-gray-900'>
+  <header class='bg-white shadow'>
+    <nav class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16'>
+      <a href='index.html' class='text-2xl font-bold text-gray-800'>Apex Gym</a>
+      <div class='hidden md:flex space-x-6'>
+        <a href='index.html' class='text-gray-600 hover:text-gray-900'>Home</a>
+        <a href='programs.html' class='text-gray-600 hover:text-gray-900'>Programs</a>
+        <a href='membership.html' class='text-gray-600 hover:text-gray-900'>Membership</a>
+        <a href='about.html' class='text-gray-600 hover:text-gray-900'>About</a>
+        <a href='contact.html' class='text-gray-600 hover:text-gray-900'>Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class='relative w-full min-h-screen'>
+    <img src='https://images.unsplash.com/photo-1563986767136-1d1d1e6f3e6f?auto=format&fit=crop&w=1600&q=60' alt='Modern gym interior with equipment' class='absolute inset-0 w-full h-full object-cover'/>
+    <div class='absolute inset-0 bg-black opacity-40'></div>
+
+    <div class='relative z-10 flex items-center justify-center h-full'>
+      <div class='text-center text-white px-6 py-12 max-w-2xl'>
+        <h1 class='text-4xl md:text-6xl font-extrabold mb-4' style='font-family: Oswald, sans-serif;'>Elevate Your Fitness</h1>
+        <p class='text-lg md:text-2xl mb-8' style='font-family: Roboto, sans-serif;'>State‑of‑the‑art facility, expert coaches, and dynamic classes to help you reach your goals.</p>
+        <div class='flex flex-col sm:flex-row gap-4 justify-center'>
+          <a href='membership.html' class='bg-rose-600 text-white px-6 py-3 rounded-full hover:bg-rose-500 transition'>Get Started</a>
+          <a href='programs.html' class='bg-white text-rose-600 border border-rose-600 px-6 py-3 rounded-full hover:bg-rose-50 transition'>View Programs</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16'>
+    <section aria-labelledby='why-choose' class='mb-12'>
+      <h2 id='why-choose' class='text-2xl font-bold mb-6'>Why Apex Gym</h2>
+      <div class='grid grid-cols-1 md:grid-cols-3 gap-8'>
+        <article class='bg-white rounded-lg shadow p-6 hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1559846153-b9b3f52c0aa6?auto=format&fit=crop&w=600&q=60' alt='Trainers coaching clients' class='w-full h-40 object-cover rounded'/>
+          <h3 class='text-xl font-semibold mt-4'>Expert Coaches</h3>
+          <p class='text-sm text-gray-600 mt-2'>Certified trainers who tailor programs to your goals.</p>
+        </article>
+        <article class='bg-white rounded-lg shadow p-6 hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1526401485004-7f8b7d5f3aa8?auto=format&fit=crop&w=600&q=60' alt='Members lifting weights' class='w-full h-40 object-cover rounded'/>
+          <h3 class='text-xl font-semibold mt-4'>Structured Programs</h3>
+          <p class='text-sm text-gray-600 mt-2'>Balanced plans for strength, cardio, and mobility.</p>
+        </article>
+        <article class='bg-white rounded-lg shadow p-6 hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1552255329-37eb1e3f1d9f?auto=format&fit=crop&w=600&q=60' alt='Group fitness class in gym' class='w-full h-40 object-cover rounded'/>
+          <h3 class='text-xl font-semibold mt-4'>Group Classes</h3>
+          <p class='text-sm text-gray-600 mt-2'>Energy-packed sessions that keep you motivated.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby='cta' class='text-center'>
+      <h2 id='cta' class='text-2xl font-bold mb-4'>Ready to start your transformation?</h2>
+      <p class='text-gray-700 mb-6'>Join today and get a free first assessment with a trainer.</p>
+      <a href='membership.html' class='bg-rose-600 text-white px-6 py-3 rounded-full hover:bg-rose-500 transition'>Choose Your Plan</a>
+    </section>
+  </main>
+
+  <footer class='bg-gray-900 text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-4 gap-8'>
+      <div>
+        <h4 class='text-lg font-semibold mb-2'>Apex Gym</h4>
+        <p class='text-sm text-gray-300'>Premium equipment, expert coaching, and a motivating community.</p>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-2'>Hours</h4>
+        <p class='text-sm text-gray-300'>Mon–Fri: 5:00 AM – 11:00 PM</p>
+        <p class='text-sm text-gray-300'>Sat–Sun: 6:00 AM – 9:00 PM</p>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-2'>Links</h4>
+        <ul class='space-y-2'>
+          <li><a href='programs.html' class='text-gray-300 hover:text-white'>Programs</a></li>
+          <li><a href='membership.html' class='text-gray-300 hover:text-white'>Membership</a></li>
+          <li><a href='about.html' class='text-gray-300 hover:text-white'>About</a></li>
+          <li><a href='contact.html' class='text-gray-300 hover:text-white'>Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class='text-lg font-semibold mb-2'>Stay Connected</h4>
+        <div class='flex space-x-3'>
+          <a href='#' class='text-gray-300 hover:text-white' aria-label='Facebook'>F</a>
+          <a href='#' class='text-gray-300 hover:text-white' aria-label='Instagram'>I</a>
+          <a href='#' class='text-gray-300 hover:text-white' aria-label='Twitter'>T</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
